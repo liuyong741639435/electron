@@ -7,7 +7,7 @@
       <i class="el-icon-watermelon"></i>
       <i class="el-icon-s-tools"></i>
       <i class="el-icon-minus"></i>
-      <i class="el-icon-plus"></i>
+      <i class="el-icon-close"></i>
     </div>
     <div class='body'>
       <div class='icon'><img :src="iconUrl" alt=""></div>
@@ -29,12 +29,7 @@ export default {
     return {
       iconUrl: require('../../assets/icon.jpg')
     }
-  },
-  watch: {},
-  computed: {},
-  methods: {},
-  created () {},
-  mounted () {}
+  }
 }
 </script>
 <style lang="less" scpoed>
@@ -45,7 +40,8 @@ export default {
   .top{   
     width: 100%;
     height: 34px;
-    margin-left: 75px;
+    display: flex;
+    justify-content: flex-end;
     line-height: 34px;
     font-size:24px;
     i{
