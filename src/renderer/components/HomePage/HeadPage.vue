@@ -1,5 +1,5 @@
 <template>
-  <div class="cont">
+  <div class="headCont">
     <!-- 头部图标 -->
     <div class="top">
       <i class="el-icon-platform-eleme"></i>
@@ -33,7 +33,7 @@ export default {
 }
 </script>
 <style lang="less" scpoed>
-.cont {
+.headCont {
   width: 100%; 
   height: 100%; // 110px
   background: #409EFF;

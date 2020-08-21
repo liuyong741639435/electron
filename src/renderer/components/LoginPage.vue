@@ -17,7 +17,6 @@
 </template>
 <script>
 import {ipcRenderer} from 'electron'
-console.log(ipcRenderer)
 export default {
   data () {
     return {
